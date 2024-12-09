@@ -1,0 +1,12 @@
+// Declaración del contador
+let contador = 0;
+
+// Función para incrementar el contador
+function incrementar() {
+    contador = contador + 1; // Incrementa en 1
+    document.getElementById('contador').innerText = contador;
+}
+
+function reiniciar() {
+    contador = 0; // Ahora se reinicia la variable global
+    document.getElementById('contador').innerText = contador;
